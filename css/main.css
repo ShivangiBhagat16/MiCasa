@@ -1,0 +1,873 @@
+body {
+    font-family: Montserrat;
+    font-size: 14px;
+}
+.BlueBg {
+    background-color: #10375C;
+}
+.OrangeBg {
+    background-color: #FF5722;
+}
+.TextColorBlue {
+    color: #10375C;
+}
+.TextColorOrange {
+    color: #FF5722;
+}
+.TextColorWhite {
+    color: #FFFFFF;
+}
+.FHelvetica {
+    font-family: Helvetica;
+}
+.FPoppins {
+    font-family: Poppins;
+}
+a {
+    transition: all ease-in 0.3s;
+}
+a:hover {
+    text-decoration: none;
+}
+:focus, :focus-visible , :active,
+a:active, a:focus,
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0;
+    text-decoration: none;
+}
+.NoMargin {
+    margin: 0;
+}
+.FontWeightBold {
+    font-weight: bold;
+}
+.ResImg {
+    display: none;
+}
+.ResImg img {
+    max-width: 100%;
+}
+.OrangeBtn {
+    background-color: #FF5722;
+    color: #fff;
+    display: block;
+    border: 0;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 14px 30px;
+    width: 100%;
+    border-radius: 10px;
+    transition: all ease-in 0.3s;
+}
+.OrangeBtn i {
+    background: url(../images/white-right-arrow.png) no-repeat top left;
+    width: 25px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+    background-size: 100%;
+}
+.OrangeBtn:hover {
+    background-color: #10375C;
+    color: #fff;
+}
+.OrangeBtn:active:focus, .OrangeBtn:focus, .OrangeBtn:active {
+    background-color: #FF5722;
+    color: #fff;
+}
+.OrangeSepLine {
+    background-color: #FF5722;
+    width: 150px;
+    height: 2px;
+    margin: 5px 0;
+    border: 0;
+}
+.TopBar {
+    clear: both;
+    display: table;
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+.Logo {
+    float: left;
+    margin: 0 150px 0 0;
+    width: 117px;
+}
+.Logo a {
+    background: url(../images/MiCasa.png) no-repeat top left;
+    width: 117px;
+    height: 26px;
+    display: block;
+    text-indent: -9999px;
+}
+.navbar {
+    border-radius: 0;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin: 0 0 15px;
+}
+.navbar li a {
+    color: #fff;
+    position: relative;
+    padding: 0;
+}
+.navbar .TopBar li a {
+    margin: 0 25px;
+}
+.navbar .TopBar .navbar-nav {
+    margin-top: 5px;
+}
+.navbar li a:hover, .navbar li a.active,
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    color: #FF5722;
+    background-color: transparent;
+}
+.navbar .navbar-right li a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-right .glyphicon-user {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.BottomLinks .navbar-nav li:first-child a {
+    padding-left: 0px;
+}
+.BottomLinks .navbar-nav {
+    font-size: 18px;
+    line-height: 27px;
+}
+.BottomLinks .navbar-nav a {
+    padding: 12px
+}
+.BottomLinks .navbar-nav .dropdown-menu li {
+    border-bottom: 1px solid rgb(16 55 92 / 5%);
+}
+.BottomLinks .navbar-nav .dropdown-menu li:last-child {
+    border-bottom: 0;
+}
+.BottomLinks .navbar-nav .dropdown-menu li a, 
+.navbar .TopBar li .dropdown-menu a {
+    color: #10375c;
+    padding: 8px 10px;
+}
+.navbar .TopBar li .dropdown-menu a {
+    margin: 0;
+}
+.BottomLinks .navbar-nav .dropdown-menu a:hover,
+.navbar .TopBar li .dropdown-menu a:hover {
+    background-color: #ff5722;
+    color: #fff;
+}
+.nav.navbar-right .open>a {
+    color: #fff;
+}
+.navbar-nav.navbar-right>li>.dropdown-menu {
+    top: 60px;
+}
+.navbar-nav>li>.dropdown-menu {
+    padding: 0;
+}
+.navbar-right .glyphicon-triangle-bottom {
+    margin-left: 5px;
+}
+.BottomLinks .glyphicon-triangle-bottom {
+    font-size: 12px;
+}
+.navbar .TopBar li a:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #FF5722;
+    content: '';
+    -webkit-transition: width 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: width 0.3s, opacity 0.3s, -moz-transform 0.3s;
+    transition: width 0.3s, opacity 0.3s, transform 0.3s;
+    -webkit-transform: translate(0px,27px);
+    -moz-transform: translate(0px,27px);
+    transform: translate(0px,27px);
+}
+.navbar .TopBar li a:hover:after, .navbar .TopBar li a.active:after {
+    height: 2px;
+    width: 100%;
+    opacity: 1;
+}
+.navbar .TopBar .navbar-right li a:after {
+    display: none;
+}
+.HomeHeader {
+    background: url(../images/home_bg.jpg) no-repeat top left;
+    background-size: cover;
+    min-height: 701px;
+    position: relative;
+}
+.HomeHeader:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(13, 44, 74, 0.07);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.HomeHeader .container {
+    position: relative;
+}
+.HomeHeader h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4.85em;/*68px*/
+    line-height: 78px;
+    margin: 0 0 25px;
+}
+.HomeHeader h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2.14em;
+    line-height: 34px;
+    margin: 0 0 30px;
+}
+.HomeHeader .Link ,.PopularCities .Link {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+.HomeHeader .Link span,.PopularCities .Link span {
+    border-bottom: 1px solid #FF5722;
+    transition: all ease-in 0.3s;
+    display: inline-block;
+}
+.HomeHeader .Link:hover span,.PopularCities .Link:hover span {
+    border-bottom: 1px solid #10375c;
+}
+.HomeHeader .Link i,.PopularCities .Link i {
+    background: url(../images/orange-right-arrow.png) no-repeat top left;
+    width: 43px;
+    height: 23px;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.HomeHeader .Header {
+    width: 500px;
+    margin-top: 185px;
+}
+.HomeSearch .row {
+    margin: 0;
+}
+.HomeSearch .Wrapper {
+    border-radius: 10px;
+    padding: 15px 115px;
+    box-sizing: border-box;
+}
+.HomeSearch h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.HomeSearch label {
+    font-family: Poppins;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.HomeSearch .col-sm-4:first-child, .HomeSearch .col-sm-4:nth-child(3n+1) {
+    padding-left: 0;
+}
+.HomeSearch .col-sm-4:nth-child(3n) {
+    padding-right: 0;
+}
+.HomeSearch .form-control {
+    border: 0;
+    font-family: Poppins;
+    padding: 12px 22px;
+    height: auto;
+    color: #676767;
+}
+select {
+    background: url(../images/down-arrow.png) no-repeat #fff !important;
+    background-position: 96% 20px !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 44px;
+    
+    position: relative;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 15px;
+}
+.HomeSearch {
+    position: relative;
+    margin-top: -132px;
+}
+.HomeSearch .OrangeBtn {
+    margin: 20px 0 -35px 
+}
+.HomeSearch .OrangeBtn:hover {
+    background-color: #9d9c9c;
+}
+.SearchWrap {
+    background: rgba(255, 87, 34, 0.11);
+}
+.HowItWorks {
+    padding: 20px 0 40px;
+}
+.HowItWorks h2 {
+    margin: 40px 0;
+}
+.HowItWorks .icon {
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    background-color: #10375C ;
+}
+.HowItWorks .Desc {
+    float: right;
+    width: calc(100% - 70px);
+    font-size: 12px;
+    line-height: 15px;
+}
+.HowItWorks .Desc h5 {
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+.HowItWorks .Col {
+    position: relative;
+    padding: 0 108px 0 0;
+}
+.HowItWorks .Col:before {
+    content: "";
+    position: absolute;
+    left: -112px;
+    top: 25px;
+    background: url(../images/arrow-indicator.png) no-repeat top left;
+    width: 140px;
+    height: 10px;
+}
+.HowItWorks .Col:first-child:before {
+    display: none;
+}
+.HowItWorks .Col:last-child {
+    padding-right: 50px;
+}
+.FeaturedHouses {
+    padding: 60px 0 65px;
+}
+.FeaturedHouses .pager a ,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    background-color: transparent;
+    border: 0;
+    color: #3C4563;
+    width: 60px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    line-height: 45px;
+    transition: all ease-in 0.3s;
+}
+.FeaturedHouses .owl-carousel .owl-nav button.owl-prev,
+.FeaturedHouses .owl-carousel .owl-nav button.owl-next {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    margin: 0 5px;
+}
+.FeaturedHouses .owl-carousel .owl-nav button.owl-prev span,
+.FeaturedHouses .owl-carousel .owl-nav button.owl-next span {
+    opacity: 0;
+}
+.owl-carousel .owl-nav button.owl-prev:after {
+    content: "\e079";
+}
+.owl-carousel .owl-nav button.owl-next:after {
+    content: "\e080";
+}
+.FeaturedHouses .pager a:hover ,
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background-color: #FF5722 !important;
+    color: #fff;
+}
+.FeaturedHouses .pager li>a:focus {
+    background-color: transparent;
+}
+.FeaturedHouses .pager a span {
+    font-size: 18px;
+}
+.SliderSection {
+    margin-top: 30px;
+}
+.SliderSection .owl-nav {
+    position: absolute;
+    top: -80px;
+    right: 25px;
+}
+.SliderSection .owl-carousel .owl-stage-outer {
+    padding: 20px 0;;
+}
+.FeaturedHouses .tabs a {
+    font-size: 15px;
+    line-height: 27px;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 30px;
+    display: block;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 10px;
+}
+.FeaturedHouses .tabs a:hover, .FeaturedHouses .tabs a.active {
+    color: #fff;
+    border: 1px solid #FF5722;
+    background-color: #FF5722;
+}
+.FeaturedHouses .tabs a i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+#reset_featuredhouse_filter {
+    width: 1px;
+    height: 1px;
+}
+.SliderSection .listing {
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 600;
+    clear: both;
+    display: table;
+    left: 0 !important;
+}
+.SliderSection .listing .price {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 15px;
+}
+.SliderSection .listing .price span {
+    font-size: 10px;
+    color: #000;
+}
+.SliderSection .listing .price:before {
+    content:"";
+    position: absolute;
+    background: url('../images/price-icon.png') no-repeat top left;
+    width: 11px;
+    height: 10px;
+    top: 5px;
+    left: 0;
+}
+.RecentlyViewed {
+    position: relative;
+}
+.RecentlyViewed .MoreViewers {
+    content: "";
+    position: absolute;
+    left: 40px;
+    top: 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.RecentlyViewed .UserImgs {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.RecentlyViewed .UserImg {
+    float: left;
+    margin-left: -9px;
+}
+.RecentlyViewed .UserImg:first-child {
+    margin-left: 0;
+}
+.RecentlyViewed .UserImg img {
+    max-width: 100%;
+    border-radius: 50%;;
+}
+.SliderSection .OrangeBtn {
+    font-size: 11px;
+    margin: 20px 30px 0;
+    width: calc(100% - 60px);
+}
+.SliderSection .OrangeBtn i {
+    width: 20px;
+    height: 12px;
+}
+.Facilities {
+    margin: 25px 0 0;
+}
+.Facilities .title {
+    float: left;
+}
+.Facilities .Details {
+    float: right;
+}
+.Facilities .Details > div {
+    display: inline-block;
+    margin-right: 5px;
+    color: #000;
+}
+.Facilities .Details > div span {
+    display: block;
+}
+.Facilities .Details > div i {
+    font-size: 15px;
+}
+.Facilities .Details > div span {
+    display: block;
+    font-size: 7px;
+    font-weight: 700;;
+}
+/*************/
+.SliderSection .Img img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+.SliderSection .listing .Img{
+    position: relative;
+    overflow: hidden;
+}
+.SliderSection .FeaturedCategory {
+    background: rgba(16, 55, 92, 0.57);
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 10px 25px;
+    position: absolute;
+    top: 25px;
+    left: -15px;
+
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.SliderSection .Col:hover .FeaturedCategory {
+    background: rgba(255, 87, 34, 0.57);
+}
+.SliderSection .FeaturedCategory i,.SliderSection .FeaturedCategory span {
+    margin-right: 5px;
+    font-size: 18px;
+}
+.SliderSection .listing .Col {
+    width: 93%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.SliderSection .listing .Col:hover {
+    box-shadow: 0px 5px 10px 5px rgb(0 0 0 / 15%);
+}
+.SliderSection .title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0;
+}
+.PopularCities {
+    padding-bottom: 80px;
+}
+.PopularCities hr {
+    margin-bottom: 50px;
+}
+.PopularCities .ImgListing a {
+    display: block;
+    position: relative;
+}
+.PopularCities .Col .Img {
+    overflow: hidden;
+}
+.PopularCities .Col .Img:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, 0.45);
+    transition: ease-in-out 0.5s;
+    box-shadow: none;
+}
+.PopularCities .Col a:hover .Img:after {
+    background-color: rgba(51, 51, 51, 0.3);
+    box-shadow: inset 0px -5px 0px 0px #FF5722;
+    z-index: 2;
+}
+.PopularCities .Col .Img img {
+    max-width: 100%;
+    width: 100%;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.PopularCities .Col a:hover .Img img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.PopularCities a .title {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 45px;
+    z-index: 3;
+    transition: ease-in-out 0.5s;
+}
+.PopularCities a:hover .title {
+    color: #FF5722;
+}
+.PopularCities .Col:nth-child(even) {
+    margin-top: 55px;
+}
+.PopularCities .Link {
+    font-weight: 400;
+}
+.PopularCities .Link i {
+    background: url(../images/orange-right-arrow2.png) no-repeat top left;
+    width: 42px;
+    height: 8px;
+}
+.NoBullet {
+    list-style: none;
+    padding: 0;
+}
+
+/********responsive custom css**********/
+@media only screen and (max-width: 1024px){
+    .container {
+        width: 94%;
+        padding: 0;
+    }
+    .ResImg {
+        display: block;
+    }
+    .HowItWorks .Col:before {
+        display: none;
+    }
+    .HomeSearch {
+        margin-top: 0;
+        padding-top: 40px;
+    }
+    .HomeHeader {
+        background: none;
+        min-height: inherit;
+        position: relative;
+    }
+    .HomeHeader .Header {
+        width: 50%;
+        margin: 0;
+        padding: 30px 0 40px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .HomeHeader h1 {
+        font-size: 5rem;
+        line-height: 60px;
+    }
+    .HomeHeader h2 {
+        font-size: 2rem;
+        line-height: 25px;
+    }
+    .SliderSection .jcarousel-wrapper {
+        margin: 0px auto 0;
+        position: relative;
+    }
+    .SliderSection .title, .Facilities .Details {
+        float: none;
+        margin: 0 auto 10px;
+        text-align: left;
+    }
+    .Facilities .Details > div {
+        text-align: center;
+    }
+    .RecentlyViewed .UserImgs {
+        display: block;
+    }
+    .RecentlyViewed span.Text {
+        display: block;
+        margin: 5px auto 0;
+    }
+    .SliderSection .OrangeBtn {
+        margin: 20px 10px 0;
+        width: calc(100% - 20px);
+    }
+    .FilterSection .OrangeSepLine {
+        margin: 10px 0 40px;
+    }
+    .HomeHeader:before {
+        display: none;
+    }
+    .HomeHeader .container {
+        position: initial;
+    }
+    .HowItWorks .Col {
+        position: relative;
+        padding: 0 0 15px;
+        clear: both;
+        display: table;
+        width: 100%;
+    }
+    .HomeSearch .OrangeBtn {
+        margin: 20px 0;
+    }
+    .HomeSearch .Wrapper {
+        padding: 15px 50px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .row {
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 767px){
+    .HomeSearch .col-sm-4:first-child, .HomeSearch .col-sm-4:nth-child(3n+1) ,
+    .HomeSearch .col-sm-4:nth-child(3n),
+    .HomeSearch .col-sm-4 {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .HomeSearch .OrangeBtn {
+        margin: 0;
+    }
+    .HowItWorks .Col {
+        padding: 0 0 25px !important;
+        display: table;
+        width: 100%;
+    }
+    .HowItWorks .Col:last-child {
+        padding: 0  !important;
+    }
+    .FeaturedHouses {
+        padding: 60px 0;
+    }
+    .HomeSearch .Wrapper {
+        padding: 15px 20px;
+    }
+}
+@media only screen and (max-width: 720px){
+    .HomeHeader .Header {
+        width: 60%;
+    }
+    .HomeHeader h1 {
+        font-size: 4rem;
+        line-height: 40px;
+    }
+}
+@media only screen and (max-width: 667px){
+    .PopularCities .Col {
+        width: 50%;
+    }
+    .FeaturedHouses .tabs a {
+        margin: 0 5px;
+        padding: 8px 20px;
+    }
+}
+@media only screen and (max-width: 540px){
+    .FeaturedHouses .tabs a {
+        border-radius: 0;
+        margin: 0 5px;
+        display: block;
+    }
+    .HomeHeader h1 {
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+    .HomeHeader h2 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+    .HomeHeader .Link, .PopularCities .Link {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .SliderSection .listing .Col {
+        width: 250px;
+    }
+    .PopularCities .Col {
+        width: 80%;
+        float: none;
+        margin: 0 auto 25px !important;
+    }
+    .PopularCities .col-xs-8, .PopularCities .col-xs-4 {
+        float: none;
+        width: 100%;
+    }
+    .PopularCities hr {
+        margin-bottom: 20px;
+    }
+    .PopularCities .col-xs-4 {
+        margin-bottom: 40px;
+    }
+    .SliderSection .owl-nav {
+        top: -30px;
+    }
+    .SliderSection .owl-carousel .owl-stage-outer {
+        padding: 40px 0 0;
+    }
+}
+@media only screen and (max-width: 384px){
+    .HomeHeader .Header {
+        width: 65%;
+    }
+    .HomeHeader h1 {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+    .HomeHeader h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        line-height: 20px;
+    }
+    .HomeHeader .Link, .PopularCities .Link {
+        font-size: 11px;
+        line-height: 15px;
+    }
+}
